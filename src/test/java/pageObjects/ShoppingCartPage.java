@@ -27,6 +27,10 @@ public class ShoppingCartPage extends BasePage {
 		btnItems.click();
 	}
 
+	public void clickViewCart() {
+		lnkViewCart.click();
+	}
+
 	public String getTotalPrice() {
 		return lblTotalPrice.getText();
 	}
